@@ -1,5 +1,5 @@
 package com.notaria.application.port.in;
 
-public cinterface DeleteNotariaUseCase {
+public interface  DeleteNotariaUseCase {
     void execute(Long id);
 }
