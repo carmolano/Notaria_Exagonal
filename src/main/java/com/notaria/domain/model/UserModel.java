@@ -9,7 +9,7 @@ import com.notaria.domain.valueobject.NotariaEmail;
 import lombok.Value;
 
 @Value
-public class UserModel {
+public class NotariaModel {
     NotariaId id;
     NotariaName name;
     NotariaNit nit;

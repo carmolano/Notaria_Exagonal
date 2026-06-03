@@ -28,7 +28,7 @@ public final class UserPassword {
 
 
     public static UserPassword fromHash(final String hash) {
-        Objects.requireNonNull(hash, "La contraseña no puede ser nulal");
+        Objects.requireNonNull(hash, "La contraseña no puede ser nula");
         return new UserPassword(hash);
     }
 

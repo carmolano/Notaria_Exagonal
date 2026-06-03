@@ -1,8 +1,7 @@
 package com.notaria.application.service;
 
-import com.notaria.application.in.LoginUseCase;
-import com.notaria.application.out.GetUserByEmailPort;
 import com.notaria.application.port.in.LoginUseCase;
+import com.notaria.application.port.out.GetUserByEmailPort;
 import com.notaria.application.service.dto.command.LoginCommand;
 import com.notaria.domain.enums.UserStatus;
 import com.notaria.domain.exception.InvalidCredentialsException;
