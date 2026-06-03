@@ -1,4 +1,4 @@
-package com.notaria.infraestructure.entrypoint.rest.controller;
+package com.notaria.infrastructure.entrypoint.rest.controller;
 
 import com.notaria.application.port.in.CreateUserUseCase;
 import com.notaria.application.port.in.DeleteUserUseCase;
